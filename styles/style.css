@@ -202,47 +202,9 @@ section p a {
     transition: 1s all;
 }
 
-div.week-links {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-}
-
-div.week-links p {
-    margin-bottom: 0.5em;
-}
-
-div.week-links h5 {
-    width: 100%;
-    color: var(--french-blue);
-    padding-top: 50px;
-    letter-spacing: 3px;
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-
-
-div.week-links p a {
-    border: 1px solid var(--french-blue);
-    color: var(--french-blue);
-    width: auto;
-    padding: 2px 15px;
-    border-radius: 30px;
-    margin-right: 0.5em;
-    margin-bottom: 0;
-    box-shadow: none;
-    
-}
-
-div.week-links p a:hover {
-    background: var(--periwinkle);
-    color: var(--french-blue);
-    transition: 1s all;
-    box-shadow: none;
-}
-
 section.weekly p a {
     display: inline;
+    overflow: hidden;
     padding: 5px 10px;
     box-shadow: none;
     border: 1px solid var(--persimmon)
